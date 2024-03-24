@@ -49,6 +49,11 @@ Plugins preinstalled with **oh-my-zsh** can be found on the [oh-my-zsh git repos
 
 ## Neovim
 ### Installing
+Before installing **neovim** make sure you have **FUSE** installed on the system:
+```zsh
+sudo apt install fuse
+```
+
 Installing **neovim** on Debian using apt gets an old version of **neovim**.
 In order to get the newest version we need to download it from the **neovim** git repo.
 ```zsh
