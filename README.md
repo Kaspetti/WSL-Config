@@ -88,6 +88,10 @@ Before copying the **nvim** folder to **~/.config** make sure to have the follow
 Once the dependencies are installed copy the **nvim** folder to **~/.config/**
  and start **neovim**. **lazy.nvim** will automatically download the plugins and set them up.
 
+#### Transparency
+[transparent.nvim](https://github.com/xiyaowong/transparent.nvim) is a part of this config and makes **neovim** transparent.
+In order to activate this, run: **:TransparentEnable** once you enter **neovim**. This will get cached and transparency will be enabled the next time you launch.
+
 ## Tmux
 Tmux is my terminal multiplexer of choice. It can be installed with the following command:
 ```zsh
