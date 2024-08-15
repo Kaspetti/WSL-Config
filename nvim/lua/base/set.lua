@@ -35,15 +35,15 @@ vim.opt.clipboard = "unnamedplus";
 vim.api.nvim_command('filetype plugin on')
 vim.api.nvim_command('filetype indent on')
 
-vim.g.clipboard = {
-    name = "win32yank-wsl",
-    copy = {
-         ["+"] = "win32yank.exe -i --crlf",
-         ["*"] = "win32yank.exe -i --crlf"
-    },
-    paste = {
-        ["+"] = "win32yank.exe -o --lf",
-        ["*"] = "win32yank.exe -o --lf"
-    },
-    cache_enabled = false
-}
+-- vim.g.clipboard = {
+--     name = "win32yank-wsl",
+--     copy = {
+--          ["+"] = "win32yank.exe -i --crlf",
+--          ["*"] = "win32yank.exe -i --crlf"
+--     },
+--     paste = {
+--         ["+"] = "win32yank.exe -o --lf",
+--         ["*"] = "win32yank.exe -o --lf"
+--     },
+--     cache_enabled = false
+-- }
