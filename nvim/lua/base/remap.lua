@@ -9,3 +9,7 @@ vim.keymap.set('i', '<C-J>', '<Down>')
 vim.keymap.set('i', '<C-K>', '<Up>')
 vim.keymap.set('i', '<C-H>', '<Left>')
 vim.keymap.set('i', '<C-L>', '<Right>')
+
+ vim.api.nvim_set_keymap("n", "k", "v:count == 0 ? 'gk' : 'k'", { noremap = true, expr = true, silent = true })
+
+vim.api.nvim_set_keymap("n", "j", "v:count == 0 ? 'gj' : 'j'", { noremap = true, expr = true, silent = true }) 
